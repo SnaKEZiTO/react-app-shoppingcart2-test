@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/products/precache-manifest.b2ce7c5d4a94c1972d288637a2b8f10e.js"
+  "/react-app-shoppingcart2-test/precache-manifest.d2743b5671465123ef00d1c0ae3e4773.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/products/index.html", {
+workbox.routing.registerNavigationRoute("/react-app-shoppingcart2-test/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
