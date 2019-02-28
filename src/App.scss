@@ -1,0 +1,24 @@
+$theme-colors: (
+    "primary": #061283,
+    "danger": #fd3c3c,
+    "warning": #ffb74c,
+    "info": #138d90
+);
+
+.product-image {
+    display: block;
+    max-height: 355px;
+    min-height: 355px;
+    width: auto;
+    height: auto;
+}
+
+.cart-image {
+    display: block;
+    max-height: 50px;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
