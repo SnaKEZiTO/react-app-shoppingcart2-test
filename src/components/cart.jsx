@@ -34,7 +34,6 @@ const Cart = ({ items, nameProperty, priceProperty, quantityProperty, onDelete, 
                                 <span>{item[nameProperty]}</span>
                                 <img src={item.image} alt="cart product" className="cart-image" />
                             </td>
-                            {/* <td className="align-middle">{item[quantityProperty]}</td> */}
                             <td>
                                 <Quantity onQuantity={onQuantity} item={item} />
                             </td>
