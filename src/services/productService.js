@@ -34,6 +34,14 @@ const products = [
         image:
             "https://cdn.shopify.com/s/files/1/2603/1874/products/US_48oz_ColdBrew_Black_White_420185_Render_V1_6b7bee07-c785-4867-9f36-3de29ee4c1ed_1400x1400.jpg?v=1520388925",
         stock: 7
+    },
+    {
+        id: "5",
+        name: "Ye",
+        price: "120.00",
+        image:
+            "https://img1.cookinglight.timeinc.net/sites/default/files/styles/medium_2x/public/image/1605w-getty-cold-brew-coffee.jpg?itok=eqMPnemu",
+        stock: 7
     }
 ];
 
