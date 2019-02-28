@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/react-app-shoppingcart2-test/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "85ea061389d24ace15b8711829d0c06b",
+    "revision": "8452b56856ab005fc39655ff780a6ee4",
     "url": "/react-app-shoppingcart2-test/index.html"
   }
 ];
