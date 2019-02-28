@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4e379770cac32dba732a",
+    "revision": "c0d231f7e1417399dfbd",
     "url": "/react-app-shoppingcart2-test/static/css/main.eb814a60.chunk.css"
   },
   {
-    "revision": "4e379770cac32dba732a",
-    "url": "/react-app-shoppingcart2-test/static/js/main.4e379770.chunk.js"
+    "revision": "c0d231f7e1417399dfbd",
+    "url": "/react-app-shoppingcart2-test/static/js/main.c0d231f7.chunk.js"
   },
   {
     "revision": "925bb7ed044a40de2259",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/react-app-shoppingcart2-test/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "767750124300588835980c820f89c497",
+    "revision": "76f508116123d0c4722b119b35a6d50d",
     "url": "/react-app-shoppingcart2-test/index.html"
   }
 ];
