@@ -40,7 +40,7 @@ const Cart = ({ items, nameProperty, priceProperty, quantityProperty, onDelete, 
                             </td>
                             <td className="align-middle">{item[priceProperty]}</td>
                             <td className="align-middle">
-                                <button className="btn btn-danger" onClick={() => this.props.onDelete(item)}>
+                                <button className="btn btn-danger" onClick={() => onDelete(item)}>
                                     Remove Item
                                 </button>
                             </td>
