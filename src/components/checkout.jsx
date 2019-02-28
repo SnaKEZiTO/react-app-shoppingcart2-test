@@ -31,43 +31,43 @@ class Checkout extends Component {
         }
     ];
 
-    componentDidMount() {
-        const dev = true;
-        if (!dev) {
-            this.setState({ cart: this.props.cart });
-            return;
-        }
-        if (dev)
-            this.setState({
-                cart: [
-                    {
-                        id: "2",
-                        name: "Third Product",
-                        price: "9.50",
-                        image: "https://www.coffee-mate.com/sites/default/files/styles/medium_rectangle/public/files/products/product-1810737.png",
-                        stock: 6,
-                        quantity: 2
-                    },
-                    {
-                        id: "3",
-                        name: "Fourth Product",
-                        price: "19.4",
-                        image: "https://www.ocado.com/productImages/345/345231011_0_640x640.jpg?identifier=642f00374a44b40d3f09893705502728",
-                        stock: 3,
-                        quantity: 3
-                    },
-                    {
-                        id: "4",
-                        name: "Fifth Product",
-                        price: "10.00",
-                        image:
-                            "https://cdn.shopify.com/s/files/1/2603/1874/products/US_48oz_ColdBrew_Black_White_420185_Render_V1_6b7bee07-c785-4867-9f36-3de29ee4c1ed_1400x1400.jpg?v=1520388925",
-                        stock: 7,
-                        quantity: 21
-                    }
-                ]
-            });
-    }
+    // componentDidMount() {
+    //     const dev = true;
+    //     if (!dev) {
+    //         this.setState({ cart: this.props.cart });
+    //         return;
+    //     }
+    //     if (dev)
+    //         this.setState({
+    //             cart: [
+    //                 {
+    //                     id: "2",
+    //                     name: "Third Product",
+    //                     price: "9.50",
+    //                     image: "https://www.coffee-mate.com/sites/default/files/styles/medium_rectangle/public/files/products/product-1810737.png",
+    //                     stock: 6,
+    //                     quantity: 2
+    //                 },
+    //                 {
+    //                     id: "3",
+    //                     name: "Fourth Product",
+    //                     price: "19.4",
+    //                     image: "https://www.ocado.com/productImages/345/345231011_0_640x640.jpg?identifier=642f00374a44b40d3f09893705502728",
+    //                     stock: 3,
+    //                     quantity: 3
+    //                 },
+    //                 {
+    //                     id: "4",
+    //                     name: "Fifth Product",
+    //                     price: "10.00",
+    //                     image:
+    //                         "https://cdn.shopify.com/s/files/1/2603/1874/products/US_48oz_ColdBrew_Black_White_420185_Render_V1_6b7bee07-c785-4867-9f36-3de29ee4c1ed_1400x1400.jpg?v=1520388925",
+    //                     stock: 7,
+    //                     quantity: 21
+    //                 }
+    //             ]
+    //         });
+    // }
 
     handleSort = sortColumn => {
         const sorted = _.orderBy(this.state.cart, [sortColumn.path], [sortColumn.order]);
